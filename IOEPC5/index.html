@@ -12,9 +12,14 @@
     ga('create', 'UA-49699570-1', 'sirctseb.com');
     ga('send', 'pageview');
   </script>
+  <script>
+    window.onload = function() {
+      document.getElementById('tomorrow').innerHTML = '' + (new Date().getDate() + 1);
+    };
+  </script>
   <link rel='stylesheet' href='IOEPC5.css'>
 </head>
 <body>
-Check back on 2014 April 13
+	Check back tomorrow, April <span id='tomorrow'></span>
 </body>
 </html>
