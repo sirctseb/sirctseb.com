@@ -1,0 +1,96 @@
+
+/*
+      Created by Keith Donegan of Code-Sucks.com
+
+	  E-Mail: Keithdonegan@gmail.com
+
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+
+*/
+
+* { padding: 0; margin: 0; }
+html {overflow-y:scroll;}
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 18px;
+ color:#1a1a1a;
+}
+#wrapper {
+ margin: 0 auto;
+ width: 922px;
+}
+#faux {
+ background: url(image/faux-3-2-col.gif);
+ margin-bottom: 10px;
+ overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+ width: 100%
+}
+#header {
+ /*color: #333;*/
+ /*color: #1a1a1a;*/
+ /*color: #F6D565;*/
+ color: white;
+ /*color: #FFCC33;*/
+ width: 902px;
+ padding: 10px;
+ height: 160px;
+ margin: 10px 0px 0px 0px;
+ background: #3A5E8C;
+}
+#leftcolumn {
+ display: inline;
+ color: #333;
+ margin: 0px;
+ padding: 0px;
+ width: 218px;
+ float: left;
+}
+#rightcolumn {
+ float: right;
+ /*color: #333;*/
+ color: #1a1a1a;
+ margin: 10px;
+ padding: 0px;
+ width: 683px;
+ display: inline;
+ position: relative;
+ min-height:400px;
+}
+.clear { clear: both; background: none; }
+
+#emlink { color: white;/*#000066;*/ }
+.main-menu { margin:0; padding: 0; width:218px;}
+.menu-list { margin: 0; padding:0; width:218px;}
+.menu-item { list-style-type:none; margin:0; padding:5px; width:209px; color:white; }
+.sub-item { margin-left:20px; width:189px; }
+.hovering { background-color:#000066; color:white; }
+.selected-item { background-color:#f6d565; color:#1a1a1a; }
+.content{ display:none; }
+.content.active { display:block; }
+#picchanger {
+	float:right;
+	margin:5px; margin-left:20px; padding:0;
+	position:relative;
+	width:150px; height:150px;
+}
+.picselector { position:absolute; width:50px; height:50px; }
+.corner-pic {
+	position:absolute; left:0; top:0;
+	width:150px; height:150px;
+	border:none;/*border:solid white 5px;*/
+}
+.t1 {
+	background-color:#333;
+	filter:alpha(opacity=15);
+	-moz-opacity:0.15;
+	-khtml-opacity: 0.15;
+	opacity: 0.15;
+}
+.content > p { margin-bottom: 10px; }
+.content >p.endspace { margin-bottom: 50px; }
+.middle { text-align:center; }
+
+.contact-left {float:left; width:150px; clear:left;}
+.contact-right {float:left; padding-bottom:20px;}
